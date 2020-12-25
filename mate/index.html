@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conocimiento</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body >
+    
+   
+    <div class="container">
+    <img class="logoambiental" src="" alt="logo">
+    <div id="container" >
+        
+        <div id="inicio" >A Pensar</div>  <!-- INICIO DE LA TRIBIA  -->
+        <div id="trivia" style="display: none">  <!--pantalla de preguntas  -->
+            <div id="pregunta"></div> <!-- preguntas encabesados  pregunta como tal -->
+            <div id="imagen"></div> <!-- imagenes del programa relacionales a la pregunta-->
+            <div id="respuestas">
+                <div class="respuesta" id="A" onclick="checkAnswer('A')"></div><br><!-- preguntas-->
+                <div class="respuesta" id="B" onclick="checkAnswer('B')"></div><br><!--preguntas -->
+                <div class="respuesta" id="C" onclick="checkAnswer('C')"></div><!-- preguntas-->
+            </div>
+            <div id="tiempo">
+                <div id="mostrador"></div> <!--  contador en numero-->
+                <div id="bcalibre_tiempo"></div> <!-- sobrante del contador porcentaje-->
+                <div id="calibre_tiempo"></div> <!--avanse del contador  -->
+            </div>
+            <div id="progreso"></div> <!-- muestra preguntas contestadas correctamente-->
+        </div>
+        <div id="imagen_resultado_puntuacion" style="display: none"></div> <!-- muestra imagen de resultado con cantidad  -->
+    </div>
+</div> 
+</body>
+</body>
+<script src="./js/tribia.js"></script>
+</html>

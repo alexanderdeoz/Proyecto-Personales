@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Protafolio</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Steven Chinchin</h1>
+                <p>Desarrollador de Softwar</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="BUSCAR">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">todos</a>
+                <a href="#">naturaleza</a>
+                <a href="#">ciudades</a>
+                <a href="#">personas</a>
+                <a href="#">animales</a>
+            </div>
+        </header>
+        <section class="grid" id="grid">
+            <div class="item" data-categoria="ciudades" data-etiquetas="ciudades autos carros calles"
+                data-descripcion="1.- new york">
+                <div class="item-contenido">
+                    <img src="img/ciudad1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="ciudades" data-etiquetas="ciudades autos carros calles"
+                data-descripcion="2.- new york desde el cielo">
+                <div class="item-contenido">
+                    <img src="img/ciudad2.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="item" data-categoria="personas" data-etiquetas="personas mujeres pelinegra"
+                data-descripcion="3.- persona">
+                <div class="item-contenido">
+                    <img src="img/persona1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="personas" data-etiquetas="personas mujeres peliroja"
+                data-descripcion="4.- persona">
+                <div class="item-contenido">
+                    <img src="./img/persona2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="animales" data-etiquetas="leon"
+                data-descripcion="5.- rey de la selva leon simba">
+                <div class="item-contenido">
+                    <img src="img/animal1.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="item" data-categoria="animales" data-etiquetas="panda" data-descripcion="6.- panda kunfu panda">
+                <div class="item-contenido">
+                    <img src="img/animal2.png" alt="">
+                </div>
+            </div>
+
+
+
+            <div class="item" data-categoria="naturaleza" data-etiquetas="playa mar "
+                data-descripcion="7.- naturaleza desde lo alto playa ">
+                <div class="item-contenido">
+                    <img src="img/paisaje1.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="item" data-categoria="naturaleza" data-etiquetas="rios rocas flores"
+                data-descripcion="8.- perfecto para canotange traviesa ">
+                <div class="item-contenido">
+                    <img src="img/paisaje2.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="item" data-categoria="naturaleza" data-etiquetas="planta verde"
+                data-descripcion="9.- platasiones de la amazonia  ">
+                <div class="item-contenido">
+                    <img src="img/naturaleza1.png" alt="">
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
